@@ -17,8 +17,9 @@ import java.util.concurrent.TimeUnit;
 public class SignInHomework {
     WebDriver driver;
     Faker faker = new Faker();
+
     @Before
-    public void SetUp(){
+    public void SetUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -28,9 +29,9 @@ public class SignInHomework {
 
     @Test
     public void signIn() throws InterruptedException {
-    driver.findElement(By.linkText("Sign in")).click();
-    driver.findElement(By.xpath("//input[@id='email_create']")).sendKeys("bette.mraz@yahoo.com");
-    driver.findElement(By.xpath("//i[@class='icon-user left']")).click();
+        driver.findElement(By.linkText("Sign in")).click();
+        driver.findElement(By.xpath("//input[@id='email_create']")).sendKeys("bettey.mraz@yahoo.com");
+        driver.findElement(By.xpath("//i[@class='icon-user left']")).click();
 
         WebElement CreateAnAccount = driver.findElement(By.xpath("//h1[@class='page-heading']"));
     Assert.assertTrue(CreateAnAccount.isDisplayed()); //"CREATE AN ACCOUNT" title Assertion
@@ -153,4 +154,6 @@ public class SignInHomework {
         driver.close();
     }
 
-}
+    }
+
+
