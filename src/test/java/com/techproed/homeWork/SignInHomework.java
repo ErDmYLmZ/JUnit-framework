@@ -1,4 +1,4 @@
-package HomeWork;
+package com.techproed.homeWork;
 
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -30,7 +30,7 @@ public class SignInHomework {
     @Test
     public void signIn() throws InterruptedException {
         driver.findElement(By.linkText("Sign in")).click();
-        driver.findElement(By.xpath("//input[@id='email_create']")).sendKeys("bettey.mraz@yahoo.com");
+        driver.findElement(By.xpath("//input[@id='email_create']")).sendKeys("betteyvc.mraz@yahoo.com");
         driver.findElement(By.xpath("//i[@class='icon-user left']")).click();
 
         WebElement CreateAnAccount = driver.findElement(By.xpath("//h1[@class='page-heading']"));
