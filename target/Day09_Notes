@@ -1,0 +1,28 @@
+There are 3 waits in Selenium / synchronization
+->Explicit wait
+. Implicit Wait
+. Explicit Wait
+. Fluent wait - This is similar to explicit wait
+All these waits are dynamic waits. It will not put unnecessary wait
+-> What is the difference between implicit and explicit wait ?
+Implicis : global wait. It will apply the driver whenever driver is used.
+Explicit : Local wait. It applies only for specific element. This ise used under an expected condition. We must create a WebDriverWait object to ouse explicit wait.
+-> Similarity between imlicit and explicit wait  ?
+All these waits are dynamic waits. It will not put unnecessary wait. Both are selenium waits
+-> Fluent Wait :
+Similar to explicit wait. We can give polling time. We can ignore the exceptions with fluent wait
+Wait wait = new FluentWait(WebDriver reference)
+withTimeout(5, SECOND) -->>Wait for 5 seconds for the element
+pollingEvery(1. SECOND) -->> Check for the element every 1 second
+ignoring(Exception.class) -->> We can add ignore exception with fluent wait
+-> TestBase : This is used for pre and post conditions. We have Before and After method. We use TestBase by extending it.
+-> Files
+	Upload a file
+	Download a file
+	Check if a file exists-with the help of JAVA
+-> Actions
+	Hover Over - Move over to an element
+	actions.moveToElement(element).perform()
+	Scrool up or down
+	arrow_up, page_up,
+	arrow_down , page_down

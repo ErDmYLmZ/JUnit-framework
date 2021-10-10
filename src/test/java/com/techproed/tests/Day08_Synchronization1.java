@@ -37,7 +37,7 @@ public class Day08_Synchronization1 extends TestBase {
         /*
          * Explicit wait does the followings:
          * 1. Wait for By.xpath("//p[@id='message']") up to 10 seconds
-         * 2. If the xpath found in 10 seconds, the it is returned as WEBELEMENT
+         * 2. If the xpath found in 10 seconds, then it is returned as WEBELEMENT
          * 3. If the element cannot be found in 10 seconds, step will fail. */
         WebElement goneElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
         Assert.assertTrue(goneElement.getText().equals("It's gone!"));
