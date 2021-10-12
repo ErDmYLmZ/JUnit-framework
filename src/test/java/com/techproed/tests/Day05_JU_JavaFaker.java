@@ -1,9 +1,9 @@
-package com.techproed;
+package com.techproed.tests;
 
 import com.github.javafaker.Faker;
 import org.junit.Test;
 
-public class Day05_JavaFaker {
+public class Day05_JU_JavaFaker {
     @Test
     public void fakerTest(){
 

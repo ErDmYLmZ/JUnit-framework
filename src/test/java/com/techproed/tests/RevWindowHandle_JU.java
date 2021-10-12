@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-public class RevWindowHandle {
+public class RevWindowHandle_JU {
     /*
         Create a new Class Tests package: Day08_WindowHandleExample Method name:windowHandle
         Given user is on the https://the-internet.herokuapp.com/windows Then user verifies the text : “Opening a new window”

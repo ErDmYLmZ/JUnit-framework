@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
@@ -8,7 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
-public class Day04_GoogleSearch {
+public class Day04_JU_GoogleSearch {
     WebDriver driver;
     @Before
     public void setUp(){

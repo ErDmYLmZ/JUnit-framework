@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class Day02_LocatorsIntro {
+public class Day02_JU_LocatorsIntro {
 
     WebDriver driver;
 

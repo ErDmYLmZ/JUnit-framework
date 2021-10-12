@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-public class Day07_WindowHandle {
+public class Day07_JU_WindowHandle {
 
     WebDriver driver;
     @Before

@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Before;
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import java.util.concurrent.TimeUnit;
-public class Day05_RadioButton {
+public class Day05_JU_RadioButton {
     WebDriver driver;
     Faker faker=new Faker();
     @Before

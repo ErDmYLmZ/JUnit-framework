@@ -1,11 +1,11 @@
-package com.techproed;
+package com.techproed.tests;
 
 import com.techproed.utilities.TestBase;
 import org.junit.Test;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 
-public class Day08_Actions4 extends TestBase {
+public class Day08_JU_Actions4 extends TestBase {
 //    WebDriver driver;
 //    @Before
 //    public void setUp(){

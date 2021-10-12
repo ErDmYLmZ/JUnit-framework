@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 
 import com.techproed.utilities.TestBase;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-public class Day08_Actions3 extends TestBase {
+public class Day08_JU_Actions3 extends TestBase {
     /*
         Create a class: Actions3
         Create test method : keysUpDown()

@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
@@ -12,7 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
-public class RevAction01 {
+public class RevAction01_JU {
     WebDriver driver;
     @Before
     public void setUp(){

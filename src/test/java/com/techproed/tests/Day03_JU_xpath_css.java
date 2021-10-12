@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Before;
@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Day03_xpath_css {
+public class Day03_JU_xpath_css {
     WebDriver driver;
     @Before
     public void setUp(){

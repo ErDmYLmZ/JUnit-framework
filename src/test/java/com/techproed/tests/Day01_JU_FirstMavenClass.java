@@ -1,10 +1,10 @@
-package com.techproed;
+package com.techproed.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Day01_FirstMavenClass {
+public class Day01_JU_FirstMavenClass {
 
     public static void main(String[] args) {
 

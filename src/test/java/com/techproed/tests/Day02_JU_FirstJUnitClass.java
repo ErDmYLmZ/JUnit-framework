@@ -1,8 +1,8 @@
-package com.techproed;
+package com.techproed.tests;
 
 import org.junit.*;
 
-public class Day02_FirstJUnitClass {
+public class Day02_JU_FirstJUnitClass {
 
     //@Test : Create a test case. This let us create and run test cases
     // @Before : Runs before each @Test annotation. Used for repeated pre condition
